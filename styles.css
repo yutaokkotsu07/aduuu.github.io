@@ -1,0 +1,38 @@
+body {
+    background-color: #d118c8;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffe6f0;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 85px rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 {
+    color: #e91e63;
+    margin-bottom: 20px;
+  }
+  
+  .love-gif {
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .love-gif:hover {
+    transform: scale(2.50);
+  }
+  
+  .click-note {
+    color: #c2185b;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
